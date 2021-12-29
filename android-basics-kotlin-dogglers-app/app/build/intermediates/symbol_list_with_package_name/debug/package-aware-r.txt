@@ -1844,6 +1844,10 @@ id disableHome
 id disablePostScroll
 id disableScroll
 id disjoint
+id dog_age
+id dog_hobbies
+id dog_image
+id dog_name
 id dragDown
 id dragEnd
 id dragLeft
