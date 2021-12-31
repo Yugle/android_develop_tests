@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/phil/Desktop/android_projects/RepositoryPattern-Starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/devbyte_item.xml",
+        "source": "/Users/phil/Desktop/android_projects/RepositoryPattern-Starter/app/src/main/res/layout/devbyte_item.xml"
+    },
+    {
+        "merged": "/Users/phil/Desktop/android_projects/RepositoryPattern-Starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dev_byte.xml",
+        "source": "/Users/phil/Desktop/android_projects/RepositoryPattern-Starter/app/src/main/res/layout/fragment_dev_byte.xml"
+    }
+]

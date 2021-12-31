@@ -18,7 +18,6 @@ package com.example.wordsapp
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.WindowInsetsAnimationController
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
@@ -33,6 +32,7 @@ import com.example.wordsapp.databinding.ActivityMainBinding
  * Main Activity and entry point for the app. Displays a RecyclerView of letters.
  */
 class MainActivity : AppCompatActivity() {
+
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
-        setupActionBarWithNavController(navController) // 确保操作栏/应用栏可见
+        setupActionBarWithNavController(navController)
     }
 
     override fun onSupportNavigateUp(): Boolean {

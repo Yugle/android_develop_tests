@@ -1,10 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- Menu asset to indicate clicking will switch to a vertical list of items for the RecyclerView -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
+    android:width="28dp"
+    android:height="28dp"
+    android:tint="#FFFFFF"
     android:viewportWidth="24"
-    android:viewportHeight="24"
-    android:tint="?attr/colorControlNormal">
-  <path
-      android:fillColor="@android:color/white"
-      android:pathData="M19.5,9.5c-1.03,0 -1.9,0.62 -2.29,1.5h-2.92C13.9,10.12 13.03,9.5 12,9.5s-1.9,0.62 -2.29,1.5H6.79C6.4,10.12 5.53,9.5 4.5,9.5C3.12,9.5 2,10.62 2,12s1.12,2.5 2.5,2.5c1.03,0 1.9,-0.62 2.29,-1.5h2.92c0.39,0.88 1.26,1.5 2.29,1.5s1.9,-0.62 2.29,-1.5h2.92c0.39,0.88 1.26,1.5 2.29,1.5c1.38,0 2.5,-1.12 2.5,-2.5S20.88,9.5 19.5,9.5z"/>
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,14h4v-4L4,10v4zM4,19h4v-4L4,15v4zM4,9h4L8,5L4,5v4zM9,14h12v-4L9,10v4zM9,19h12v-4L9,15v4zM9,5v4h12L21,5L9,5z" />
 </vector>
